@@ -1,0 +1,15 @@
+#+TITLE: literate-backup
+#+AUTHOR: -=TODO=-
+
+Backup tool with the following features:
+
+* incremental backups
+* configurable subset of directories to backup
+
+  [TODO:gmm] Explain it
+
+* TODO support of the local and remote hosts
+* START support of multiple backup intervals with per interval number of backups
+* DELEGATED automatic resuming of the interrupted backups
+* CANCEL smart automatic cleanup of older backups
+* DONE protection against concurrent backups
